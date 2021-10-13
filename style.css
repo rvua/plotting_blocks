@@ -1,3 +1,18 @@
+/* 
+Start With:
+- Outside -> In, then Top -> Down, then Left -> Right 
+
+- Margin = When you want to push things away 
+- Padding = When you want to push things in 
+- Divs are blocks and they dont allow other blocks to be beside each other. Therefore you need 
+inline-block on each blue and red for them to be beside each other.
+- Use vertical-align: top when you use display: inline-block. They usually go together
+- Use margin-right on blue id to move red away from blue.
+- Make the yellows to display-inline block in order to be side by side 
+
+- Should be able to do margin, padding, display inline-block, vertical align top
+*/
+
 .container{
     width: 950px;
     background-color: silver;
@@ -48,5 +63,3 @@
     display: inline-block;
     margin: 86px 10px;
 }
-
-
